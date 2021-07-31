@@ -1,0 +1,220 @@
+.header {
+    width: 80%;
+    height: 90px;
+    background-color: #fe6433;
+    margin-left: 10%;
+}
+.header:hover {
+    background-color: red;
+    width: 80%;
+    height: 90px;
+}
+.header__navbar-list {
+    list-style: none;
+}
+.header__navbar-item {
+    margin: 20px;
+    margin-top: 3%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.header__navbar-item,
+.header__navbar-item-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a.header__navbar-item-link:hover {
+    color: yellow;
+}
+.header__navbar-item-link:hover {
+    transform: scale(1.3);
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__body {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+
+}
+.auth-form__container {
+    padding: 0 32px;
+
+}
+.auth-form__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-form__heading {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.auth-form__form {
+    margin: 30px;
+}
+.auth-form__input {
+    width: 100%;
+    height: 30px;
+}
+.auto-form__policy-link {
+    text-decoration: none;
+}
+
+.auth-form__controls {
+    margin-top: 40px;
+}
+.btn {
+    min-width: 100px;
+    height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.btn.btn__primary{
+    color: white ;
+    background-color: #fe6433;
+    font-weight: 300;
+}
+img {
+    width: 1300px;
+    height:700px;
+}
+.nab {
+    margin-left: 20%;
+}
+/*.box2 { 
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -ms-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+    position: absolute;
+    top: -1%;
+}
+.box2:hover { 
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+} */
+.anh1 {
+    width: 13%;
+    height: 13%;
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+}
+.anh1 {
+    position: absolute;
+    top: 3%;
+}
+.anh1 {
+    width: 8%;
+    height: 13%;
+    background-image: url(https://lh3.googleusercontent.com/IJVmN0vMHuX6JQzJ-X1hFh-bpHPbKEDexDl1N-mR-07Rd3e7PBTXw2Tms69hXlxpSUUt4g=s85);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.anh2 {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+.anh3{
+    position:relative;
+    overflow:hidden;
+    display: inline-block;
+    background: white
+  }
+.anh3:before {
+    position:absolute;
+    top:0;
+    left:-75%;
+    z-index:2;
+    display:block;
+    content:'';
+    width:50%;
+    height:100%;
+    background:linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 100%);
+    transform:skewX(-25deg);
+  }
+.anh3:hover:before {
+    animation:shine .75s;
+  }
+   
+  @keyframes shine {
+      0%   {left: -75%}
+      100% {left: 120%;}
+  }
+.chu1 {
+    color: rgb(208, 255, 0);
+    text-align: center;
+    margin-top: 2%;
+}
+.chu1:hover {
+    color: rgb(255, 238, 0);
+}
+.chu3 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.khung2 {
+    width: 60%;
+    height: 50%;
+    background-color: rgb(247, 243, 12);
+    font-size: 20px;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+.khung2:hover {
+    width: 60%;
+    height: 50%;
+    background-color: rgb(247, 204, 12);
+}
+.khung211 {
+    margin: 20px;
+    margin-top: 3%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+a.khung2111:hover {
+    color: rgb(0, 204, 255);
+}
+.khung211,
+.khung2111 {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10%;
+}
